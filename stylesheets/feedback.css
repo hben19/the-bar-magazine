@@ -1,0 +1,33 @@
+section .form-container {
+    margin: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+.form-container a {
+    background-color: #adafb2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    background-color: rgba(0,0,0,.5)
+}
+
+select #5-star {
+    background-image: url(/images/top10/stars/5star.png);
+}
+    
+}

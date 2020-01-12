@@ -1,0 +1,162 @@
+.main-content {
+    margin-top: 0;
+}
+
+h3 {
+    margin-bottom: 4%;
+}
+
+.bar-container {
+    width: 100%;
+    margin: 2%;
+    box-sizing: border-box;
+/*    border-bottom: solid black 1px;*/
+}
+
+.place-text {
+    position: relative;
+    float: left;
+    font-size: 10vw;
+    bottom: 4vw;
+    color: #adafb2;
+    text-shadow:
+        3px 3px 3px #000,
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    width: 14%;
+}
+
+
+.bar-image {
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-bottom: 4%;
+    filter: grayscale(40%);
+    transition: 1s;
+}
+
+.bar-image:hover {
+    filter: grayscale(0);
+    transform: scale(1.06);
+}
+
+.bar-review {
+    position: relative;
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 3%
+}
+
+.bar-name-location {
+    position: relative;
+    left: -2%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    font-size: 2vw
+}
+
+
+.viewpoint {
+    margin-right: 2%;
+    width: 50%;
+    float: left;
+    font-size: 1.6vw
+}
+
+.rating {
+    position: relative;
+    display: block;
+    margin-top: 1%;
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-bottom: 2%;
+    top: -0.2vw;
+}
+
+.text-review {
+    margin-top: 10%;
+    float: left;
+    font-size: 1.5vw;
+    margin-left: -1%;
+    text-align:justify;
+}
+
+footer .logo {
+    left: 2%;
+    margin-top: 10%
+}
+
+/* MEDIA TAGS*/
+
+/* TABLETS */
+
+@media(max-width: 860px){
+    .place-text {
+        font-size: 13.5vw;
+    }
+    
+    .bar-name-location {
+        font-size: 3vw;
+    }
+    
+    .viewpoint {
+        font-size: 2vw;
+    }
+    
+    .text-review {
+        font-size: 1.7vw;
+    }
+    
+    footer .logo {
+        left: 36%
+    }
+    
+}
+
+/* MOBILE */
+
+@media(max-width: 580px){
+    .place-text {
+        float: none;
+        width: 100%;
+        text-align: center;
+        font-size: 15vw;
+    }
+    
+    .bar-image {
+        float: none;
+        display: block;
+        width: 95%
+    }
+    
+    .bar-review {
+        width: 92%;
+    }
+    
+    .viewpoint {
+        font-size: 4vw;
+        margin-top: 1%
+    }
+    
+    .bar-name-location {
+        font-size: 6vw
+    }
+    
+    .text-review {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 4vw;
+    }
+    
+    footer .logo {
+        left: 21%
+    }
+    
+}

@@ -1,0 +1,138 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Bar Magazine</title>
+        <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
+        <link href="stylesheets/home.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link rel="icon" href="images/the-bar-icon.png"/>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">			
+                <nav>
+                    <div class="menu-icon">
+                        <i class="fa fa-bars" style="font-size:30px"></i>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="images/the-bar-logo.png" width="230" alt="logo" class="logo"></a>
+                    </div>
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="top10.html">Top 10</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <div class="slideshow-container">
+                    <div class="top-news" id="top-news-1">
+                        <img src="images/home/bar.jpg" alt="bar" class="top-news-picture" id="bar-picture">
+                        <h2 class="title-1"><a href="top10.html">The Top 10 London<br>bar of 2018!</a></h2>   
+                    </div>
+                    <div class="top-news">
+                        <img src="images/home/cocktail.jpg" alt="cokctail" class="top-news-picture" id="cocktail-picture">
+                        <h2 class="title-2"><a href="news.html">Which was London's<br>favorite cocktail this year?</a></h2>
+                    </div>    
+                    <div class="top-news">
+                        <img src="images/home/bartender.jpg" alt="bartender" class="top-news-picture" id="bartender-picture">
+                        <h2 class="title-3"><a href="news.html">The first Bar Magazine<br>bartender award.</a></h2>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>    
+                </div>
+                <div class="introduction">
+                    <h3>The Bar Magazine - Everything about London bars.</h3>
+                </div>
+                <div class="news-container">
+                    <div class="row">
+                        <div class="column-left">
+                            <div class="left-first-row">
+                                <a href="news.html"><img src="images/home/new-bar.jpg" alt="New Bar" id="new-bar-picture"></a>
+                                <a href="news.html"><h4>New bar has opened by Mikkeller and Rick Astley.</h4></a>
+                            </div>
+                            <div class="left-second-row">
+                                <div class="picture-news">
+                                    <a href="news.html"><img src="images/home/wetherspoon.jpg" class="story-picture" alt="Wetherspoon"></a>
+                                    <div class="story-text">
+                                        <a href="news.html">Wetherspoon is the favorite budget pub grub.</a>
+                                    </div>
+                                </div>
+                                <div class="picture-news">
+                                    <a href="news.html"><img src="images/home/english-drinking.jpg" class="story-picture" alt="British Drinking"></a>
+                                    <div class="story-text">
+                                        <a href="news">Read about the British drinking culture.</a>
+                                    </div>
+                                </div>
+                                <div class="picture-news">
+                                    <a href="news.html"><img src="images/home/new-cocktail.jpg" class="story-picture" alt="New Cocktail"></a>
+                                    <div class="story-text">
+                                        <a href="news.html">Find out where you can try this exotic, fruity coctail!</a>
+                                    </div>
+                                </div>
+                                <div class="picture-news">
+                                    <a href="top10.html"><img src="images/home/top-1.jpg" class="story-picture" alt="Top 1 Bar"></a>
+                                    <div class="story-text">
+                                        <a href="top10.html">The leader of our top list: Seymour's Parlour</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-right">
+                            <div class="short-news">
+                                <a href="feedback.html"><p>Would you like to be a bar expert? Share your experience with us!</p></a>
+                            </div>
+                            <div class="short-news">
+                                <a href="about_us.html"><p>Read more about our magazine.</p></a>
+                            </div>
+                            <div class="short-news">
+                                <a href="top10.html"><p>Check out The Bar Magazine top list!</p></a>
+                            </div>
+                            <div class="short-news">
+                                <a href="news.html"><p>Would you like to apply for our bartender competition? You can do this here.</p></a>
+                            </div>
+                            <div class="short-news">
+                                <a href="news.html"><p>Cocktail of the year. <br> You will love this one!</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <footer>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="top10.html">Top 10</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                    </ul>
+                </nav>
+                <ul class="copyright">
+                    <li>&copy;2019<a href="index.html"> The Bar Mag</a> all rights reserved.</li>
+                </ul>
+                <a href="index.html"><img class="logo" src="images/the-bar-logo.png" alt="logo"></a>
+            </div>
+        </footer>
+    </body>
+</html>
+    

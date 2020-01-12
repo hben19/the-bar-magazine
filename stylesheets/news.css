@@ -1,0 +1,82 @@
+.news-container {
+    margin: 5%;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 4%;
+    height: 30vw;
+}
+
+.news-container:first-child {
+    margin-top: 5%;
+}
+
+.article-picture-left {
+    height: 80%;
+    float: left;
+    margin-right: 3%;
+}
+
+.article-picture-right {
+    height: 80%;
+    float: right;
+    margin-left: 3%;
+}
+
+.news-container h2 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+article {
+    font-size: 1.4vw;
+}
+
+/* MEDIA TAGS*/
+
+/* TABLETS */
+
+@media(max-width: 860px){
+    .news-container h2 {
+        font-size: 2.4vw;
+    }
+    
+    article {
+        font-size: 1.8vw;
+    }
+}
+
+/* MOBILE */
+
+@media(max-width: 580px) {
+    .news-container{
+        height:auto;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    .article-picture-left {
+        position: relative;
+        float: none;
+        display: block;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .article-picture-right {
+        position: relative;
+        float: none;
+        display: block;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    article {
+        display: block;
+        font-size: 2.4vw
+    }
+    
+    .news-container h2 {
+        font-size: 3.3vw
+    }
+}

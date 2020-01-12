@@ -1,0 +1,285 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    background: #adafb2;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+.content{
+    position: static;
+    padding-top: 57px;
+    padding: none;
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: -1;
+}
+.logo {
+    float: left;
+    position: fixed;
+    margin: 1px 20px;
+}
+
+header nav {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+header nav ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    transition: 0.8s;
+    overflow: hidden;   
+    background: rgba(0,0,0,.92);
+    padding-left: 100px;
+    font-size: 18px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-left: 10%;
+    margin: 0;
+    color: white;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: #b5b5b5;
+}
+
+.menu-icon {
+    display: none;
+    width: 100%;
+    padding: 23px 20px;
+    background: black;
+    text-align: right;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+}
+
+.introduction {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+h3 {
+    position: relative;
+    width: 60%;
+    font-size: 2vw;
+    border-bottom: solid;
+    left: 20%;
+    margin-bottom: 0;
+}
+
+.main-content {
+    position: relative;
+    margin-top: 4%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    float: left;
+    background-color: rgba(255,255,255,.7);
+}
+
+.main-content:last-child {
+    margin-bottom: 5%;
+}
+
+footer {
+    position: relative;;
+    top: 200%;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer .container {
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    float: left;
+    width: 100%;
+}
+
+footer nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 2%;
+    font-size: 1.3vw;
+    padding: 1%
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+    font-size: 1.4vw;
+}
+
+.copyright a {
+    color: white;
+}
+
+footer .logo {
+    width: 23%;
+    position: relative;
+    display: inline-block;
+    left: 38%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#thank-you {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-size: 4vw;
+}
+
+
+
+/* MEDIA TAGS*/
+
+/* TABLETS */
+
+@media(max-width: 860px){
+    header nav ul {
+        padding-right: 10px
+    }
+    
+    header nav ul li{
+        padding-left: 20px;
+        float: right;
+        text-align: left;
+    }
+    
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+    
+    h3 {
+        font-size: 2.6vw
+    }
+    
+    footer ul li {
+        font-size: 1.8vw;
+    }
+    
+    footer nav ul li {
+        font-size: 1.8vw;
+    }
+    
+    .introduction h3{
+        font-size: 3.5vw;
+    }
+    
+}
+
+/* MOBILE */
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 10px;
+        top: 0;
+        margin-left: 2%;
+    }
+    
+    header nav ul {
+        background: black;
+        max-height: 0px;
+    }
+    
+    .open {
+        max-height: 20em;
+    }
+    
+    header nav ul li {
+        border-bottom: 1px solid grey;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px 10px;
+        text-align: right;
+        float: center;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+    
+    .introduction {
+        margin-top: 8%;
+    }
+    
+    footer nav ul li {
+        position: relative;
+        float: none;
+        margin: 0;
+        padding: none;
+        width: 100%;
+        text-align: center;
+        left: -8%;
+    }
+    
+    footer nav ul li a {
+        font-size: 4.2vw;
+    }
+    
+    .copyright {
+        position: relative;
+        float: none;
+        text-align: center;
+        left: -2%
+    }
+    
+    footer .logo {
+        position: relative;
+        width: 50vw;
+        float: none;
+        margin: 5%;
+        left: 22%;
+        float: none;
+    }
+    
+    footer ul li {
+        font-size: 4.2vw;
+        margin: 0;
+        padding: none;
+    }
+}
+
+
+
+
+
